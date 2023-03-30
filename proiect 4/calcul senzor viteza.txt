@@ -1,0 +1,19 @@
+https://microdigisoft.com/timer1-in-pic-microcontroller/
+
+SENZOR: 4000 impulsuri/km
+
+PT. 10 km/h = 40000 impulsuri/h = 40000/3600 impulsuri/sec = 11.1111(1) impulsuri/sec = 0.01111(1) impulsuri/ms
+Pentru a avea 0.0111 impulsuri pe milisecunda, este necesar un impuls o data la 90 ms
+
+Fosc / 4 = 20 MHz / 4 = 5 Mhz
+Prescalar = 1:8
+Tick Counter frequency = Prescaler/5 Mhz = 8 / 5 Mhz = 1.6 us
+Delay required = 90 ms
+Timer Count = 90ms/ 1.6 u s =  56250 ticks;
+Timer start: 65535 - 56250 = 9285
+
+
+similar pt. 20km/h
+
+timer count = 28125
+timer start: 65535 - 28125 = 37410

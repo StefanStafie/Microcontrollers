@@ -1,0 +1,3 @@
+Timer: https://microdigisoft.com/timer1-in-pic-microcontroller/
+Interrupt on change: https://itecnotes.com/electrical/electronic-using-the-portb-interrupt-on-change-feature-with-xc8/
+Analog read: https://circuitdigest.com/microcontroller-projects/pic-microcontroller-pic16f877a-adc-tutorial

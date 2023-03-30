@@ -1,0 +1,17 @@
+100km/h == 62MPH == 62*2000 impulsuri / ora == 124000 impulsuri / 3600 secunde == 1240/36 impulsuri/secunda == 1240 / (36*1000) impulsuri / ms == 0,034444.... impulsuri/ms =?>>>>>
+
+1 impuls la 29ms == 100km/h
+1 impuls la 290 ms == 10km/h
+1 impuls la 58ms == 50km/h 
+
+100km/h
+Timer start: 65535 - 3625 = 61910
+
+10km/h
+Timer should start at 65535 - 36250 = 29285
+
+50km/h
+Timer start: 65535 - 7250 = 58286
+
+
+
